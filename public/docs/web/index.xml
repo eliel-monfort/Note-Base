@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note Base – Web Technologies</title>
+    <link>http://localhost:1313/docs/web/</link>
+    <description>Recent content in Web Technologies on Note Base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>HTML Basics</title>
+      <link>http://localhost:1313/docs/web/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/web/html/</guid>
+      <description>
+        
+        
+        &lt;p&gt;HTML (HyperText Markup Language) defines the structure of a webpage.&lt;br&gt;
+It is used to organize content such as headings, paragraphs, images, and links.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Styling with CSS</title>
+      <link>http://localhost:1313/docs/web/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/web/css/</guid>
+      <description>
+        
+        
+        &lt;p&gt;CSS (Cascading Style Sheets) is used to style and format web pages.&lt;br&gt;
+You can use it to define colors, fonts, layouts, and responsive behavior.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
