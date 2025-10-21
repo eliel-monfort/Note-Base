@@ -6,36 +6,29 @@ theme: hextra
 params:
   customCSS:
     - css/custom.css
-
   navbar:
     displayTitle: true
     displayLogo: true
     logo:
-      path: /favicon.svg
-      dark: /favicon.svg
+      path: images/logo.ico
+      dark: images/logo-dark.ico
       link: /
       width: 68
       height: 34
-
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
-
   page:
     width: wide
-
   search:
     enable: true
     type: flexsearch
     flexsearch:
       index: content
       tokenize: forward
-
   footer:
     displayPoweredBy: false
-
   theme:
     displayToggle: false
-
   externalLinkDecoration: true
   noindex: true
 
