@@ -3,38 +3,10 @@ languageCode: en-us
 title: Note Base
 theme: hextra
 
-menu:
-  main:
-    - name: General
-      pageRef: /docs
-      weight: 1
-    - name: Search
-      weight: 4
-      params:
-        type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/eliel-monfort/"
-      params:
-        icon: github
-    - name: Discord
-      weight: 6
-      url: "https://discord.gg/hextra"
-      params:
-        icon: discord
-  sidebar:
-    - name: More
-      params:
-        type: separator
-      weight: 1
-    - name: "About"
-      pageRef: "/about"
-      weight: 2
-    - name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
-      weight: 3
-
 params:
+  customCSS:
+    - css/custom.css
+
   navbar:
     displayTitle: true
     displayLogo: true
@@ -66,3 +38,34 @@ params:
 
   externalLinkDecoration: true
   noindex: true
+
+menu:
+  main:
+    - name: General
+      pageRef: /docs
+      weight: 1
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/eliel-monfort/"
+      params:
+        icon: github
+    - name: Discord
+      weight: 6
+      url: "https://discord.gg/hextra"
+      params:
+        icon: discord
+  sidebar:
+    - name: More
+      params:
+        type: separator
+      weight: 1
+    - name: "About"
+      pageRef: "/about"
+      weight: 2
+    - name: "Hugo Docs ↗"
+      url: "https://gohugo.io/documentation/"
+      weight: 3

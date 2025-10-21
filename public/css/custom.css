@@ -1,19 +1,21 @@
-:root { /* Main container variables */
+/* ===== Root variables OUTSIDE @layer ===== */
+:root {
   --hextra-max-page-width: 80rem;
   --hextra-max-navbar-width: 90rem;
 }
 
-html { /* Base font size */
+html {
   font-size: 20px !important;
 }
 
-.hextra-nav-container a[href="/"] { /* Homepage link in nav */
+.hextra-nav-container a[href="/"] {
   font-size: 1.5rem !important;
   font-weight: 600 !important;
 }
 
+/* ===== ALL COLOR VARIABLES INSIDE @layer theme ===== */
 @layer theme {
-  :root, .dark { /* Color scheme - dark mode */
+  :root, .dark {
     --theme: #202226;
     --entry: #202226;
     --primary: #f1f2f5;
@@ -28,6 +30,8 @@ html { /* Base font size */
     --hextra-max-footer-width: 80rem;
   }
 }
+
+/* ===== ALL OTHER STYLES OUTSIDE @layer ===== */
 
 /* Page and Panel Backgrounds */
 html, body {
@@ -54,6 +58,7 @@ html, body {
 .hextra-toc a {
   color: var(--secondary);
 }
+
 .hextra-sidebar-container a:hover,
 .hextra-sidebar-active-item a,
 .hextra-toc a.hextra-toc-active {
@@ -76,12 +81,16 @@ html, body {
 }
 
 /* Search bar styles */
-.hextra-search-wrapper { background-color: transparent; }
+.hextra-search-wrapper {
+  background-color: transparent;
+}
+
 .hextra-search-input {
   background-color: var(--code-bg);
   color: var(--content);
   border: 1px solid var(--border);
 }
+
 .hextra-search-results {
   background-color: var(--entry);
   border: 1px solid var(--border);
@@ -91,10 +100,12 @@ html, body {
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
   color: var(--primary);
 }
+
 .content, .content p, .content li, .content ul, .content ol {
   color: var(--content);
 }
-.content blockquote { /* Blockquote accent */
+
+.content blockquote {
   border-left: 3px solid var(--border);
   background-color: rgba(70,74,81,0.2);
   color: var(--secondary);
@@ -110,11 +121,12 @@ pre {
   box-shadow: none !important;
 }
 
-.hextra-code-filename { /* Filename label in code */
+.hextra-code-filename {
   background-color: var(--tertiary);
   color: var(--secondary);
 }
-.content code:not(.hextra-code-block code) { /* Inline code */
+
+.content code:not(.hextra-code-block code) {
   background-color: var(--code-bg);
   color: var(--primary);
   padding: 0.1em 0.4em;
@@ -134,6 +146,7 @@ pre {
   border: 2px solid var(--entry);
   border-radius: 8px;
 }
+
 .hextra-scrollbar::-webkit-scrollbar-track {
   background-color: var(--theme);
 }
@@ -151,7 +164,9 @@ pre {
 }
 
 /* Nav blur background */
-.hextra-nav-container-blur { background: #18191c !important; }
+.hextra-nav-container-blur {
+  background: #18191c !important;
+}
 
 /* Search results - alternate styling */
 .hextra-search-results {
