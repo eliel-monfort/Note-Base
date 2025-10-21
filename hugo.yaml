@@ -1,4 +1,4 @@
-baseURL: https://eliel-monfort.github.io/Note-Base/
+baseURL: /
 languageCode: en-us
 title: Note Base
 theme: hextra
@@ -39,8 +39,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: /favicon.ico
-      dark: /favicon.ico
+      path: /favicon.svg
+      dark: /favicon.svg
       link: /
       width: 68
       height: 34
