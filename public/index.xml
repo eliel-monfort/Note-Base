@@ -1,18 +1,1 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Note Base – Home</title>
-    <link>http://localhost:1313/Note-Base/</link>
-    <description>Recent content in Home on Note Base</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 20:29:04 +0300</lastBuildDate>
-    
-	  <atom:link href="http://localhost:1313/Note-Base/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-      
-    
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Note Base – Home</title><link>https://note-base.emcybertrack.com/</link><description>Recent content in Home on Note Base</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 20:29:04 +0300</lastBuildDate><atom:link href="https://note-base.emcybertrack.com/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

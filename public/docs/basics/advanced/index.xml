@@ -1,53 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Note Base – Advanced Topics</title>
-    <link>http://localhost:1313/Note-Base/docs/basics/advanced/</link>
-    <description>Recent content in Advanced Topics on Note Base</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	  <atom:link href="http://localhost:1313/Note-Base/docs/basics/advanced/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Customizing Hextra</title>
-      <link>http://localhost:1313/Note-Base/docs/basics/advanced/customization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Note-Base/docs/basics/advanced/customization/</guid>
-      <description>
-        
-        
-        &lt;p&gt;You can override theme layouts or styles by creating files in your &lt;code&gt;layouts/&lt;/code&gt; or &lt;code&gt;assets/css/&lt;/code&gt; directory.&lt;/p&gt;
-&lt;p&gt;For example, add &lt;code&gt;assets/css/custom.css&lt;/code&gt;:&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Performance Optimization</title>
-      <link>http://localhost:1313/Note-Base/docs/basics/advanced/performance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Note-Base/docs/basics/advanced/performance/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Hugo and Hextra are extremely fast by default, but here are a few tips to make builds even faster:&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Note Base – Advanced Topics</title><link>https://note-base.emcybertrack.com/docs/basics/advanced/</link><description>Recent content in Advanced Topics on Note Base</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://note-base.emcybertrack.com/docs/basics/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>Customizing Hextra</title><link>https://note-base.emcybertrack.com/docs/basics/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/basics/advanced/customization/</guid><description>
+&lt;p&gt;You can override theme layouts or styles by creating files in your &lt;code&gt;layouts/&lt;/code&gt; or &lt;code&gt;assets/css/&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;For example, add &lt;code&gt;assets/css/custom.css&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Performance Optimization</title><link>https://note-base.emcybertrack.com/docs/basics/advanced/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/basics/advanced/performance/</guid><description>
+&lt;p&gt;Hugo and Hextra are extremely fast by default, but here are a few tips to make builds even faster:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Use Hugo modules to avoid extra git dependencies.&lt;/li&gt;
 &lt;li&gt;Minimize image sizes in the &lt;code&gt;static/&lt;/code&gt; folder.&lt;/li&gt;
 &lt;li&gt;Use page bundles and avoid unnecessary content duplication.&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;hugo --gc --minify&lt;/code&gt; for a clean, compressed output.&lt;/li&gt;
-&lt;/ol&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/ol&gt;</description></item></channel></rss>
