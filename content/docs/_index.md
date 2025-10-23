@@ -1,6 +1,5 @@
 ---
 date: '2025-10-20T20:29:04+03:00'
-draft: true
 title: "Introduction"
 ---
 
