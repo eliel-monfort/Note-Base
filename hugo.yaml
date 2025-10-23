@@ -4,6 +4,7 @@ title: Note Base
 theme: hextra
 
 params:
+  favicon: /favicon.ico
   customCSS:
     - css/custom.css
   navbar:
