@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note Base – Introduction</title>
-    <link>http://localhost:1313/docs/</link>
+    <link>http://localhost:64348/docs/</link>
     <description>Recent content in Introduction on Note Base</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Oct 2025 20:29:04 +0300</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:64348/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Configuration Guide</title>
-      <link>http://localhost:1313/docs/basics/configuration/</link>
+      <link>http://localhost:64348/docs/basics/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/basics/configuration/</guid>
+      <guid>http://localhost:64348/docs/basics/configuration/</guid>
       <description>
         
         
@@ -57,10 +57,10 @@ pageRef: /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-co
     
     <item>
       <title>Customizing Hextra</title>
-      <link>http://localhost:1313/docs/basics/advanced/customization/</link>
+      <link>http://localhost:64348/docs/basics/advanced/customization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/basics/advanced/customization/</guid>
+      <guid>http://localhost:64348/docs/basics/advanced/customization/</guid>
       <description>
         
         
@@ -72,10 +72,10 @@ pageRef: /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-co
     
     <item>
       <title>DNS (Domain Name System)</title>
-      <link>http://localhost:1313/docs/network/dns/</link>
+      <link>http://localhost:64348/docs/network/dns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/network/dns/</guid>
+      <guid>http://localhost:64348/docs/network/dns/</guid>
       <description>
         
         
@@ -87,10 +87,10 @@ DNS makes it possible to visit websites using easy-to-remember domain names inst
     
     <item>
       <title>Firewall</title>
-      <link>http://localhost:1313/docs/network/firewall/</link>
+      <link>http://localhost:64348/docs/network/firewall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/network/firewall/</guid>
+      <guid>http://localhost:64348/docs/network/firewall/</guid>
       <description>
         
         
@@ -102,10 +102,10 @@ They help protect systems from unauthorized access and malicious attacks.&lt;/p&
     
     <item>
       <title>HTML Basics</title>
-      <link>http://localhost:1313/docs/web/html/</link>
+      <link>http://localhost:64348/docs/web/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/web/html/</guid>
+      <guid>http://localhost:64348/docs/web/html/</guid>
       <description>
         
         
@@ -117,10 +117,10 @@ It is used to organize content such as headings, paragraphs, images, and links.&
     
     <item>
       <title>Installing Hextra</title>
-      <link>http://localhost:1313/docs/basics/installation/</link>
+      <link>http://localhost:64348/docs/basics/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/basics/installation/</guid>
+      <guid>http://localhost:64348/docs/basics/installation/</guid>
       <description>
         
         
@@ -131,10 +131,10 @@ It is used to organize content such as headings, paragraphs, images, and links.&
     
     <item>
       <title>Performance Optimization</title>
-      <link>http://localhost:1313/docs/basics/advanced/performance/</link>
+      <link>http://localhost:64348/docs/basics/advanced/performance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/basics/advanced/performance/</guid>
+      <guid>http://localhost:64348/docs/basics/advanced/performance/</guid>
       <description>
         
         
@@ -151,10 +151,10 @@ It is used to organize content such as headings, paragraphs, images, and links.&
     
     <item>
       <title>Styling with CSS</title>
-      <link>http://localhost:1313/docs/web/css/</link>
+      <link>http://localhost:64348/docs/web/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/web/css/</guid>
+      <guid>http://localhost:64348/docs/web/css/</guid>
       <description>
         
         
