@@ -1,5 +1,30 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Note Base – Introduction</title><link>https://note-base.emcybertrack.com/docs/</link><description>Recent content in Introduction on Note Base</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 20:29:04 +0300</lastBuildDate><atom:link href="https://note-base.emcybertrack.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuration Guide</title><link>https://note-base.emcybertrack.com/docs/basics/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/basics/configuration/</guid><description>
-&lt;p&gt;You can customize Hextra through the &lt;code&gt;hugo.yaml&lt;/code&gt; file.&lt;br&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note Base – Introduction</title>
+    <link>http://localhost:60101/docs/</link>
+    <description>Recent content in Introduction on Note Base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Oct 2025 20:29:04 +0300</lastBuildDate>
+    
+	  <atom:link href="http://localhost:60101/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Configuration Guide</title>
+      <link>http://localhost:60101/docs/basics/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/basics/configuration/</guid>
+      <description>
+        
+        
+        &lt;p&gt;You can customize Hextra through the &lt;code&gt;hugo.yaml&lt;/code&gt; file.&lt;br&gt;
 Some common configuration areas include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Site title&lt;/strong&gt;: Changes the top bar title&lt;/li&gt;
@@ -8,38 +33,136 @@ Some common configuration areas include:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Language settings&lt;/strong&gt;: Supports multi-language documentation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here is a basic example:&lt;/p&gt;
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
 &lt;div&gt;&lt;pre&gt;&lt;code&gt;baseURL: &amp;#34;https://example.com&amp;#34;
 title: &amp;#34;My Documentation Site&amp;#34;
 defaultContentLanguage: &amp;#34;en&amp;#34;
 menu:
 main:
 - name: Home
-pageRef: /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
-&gt;
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
-&lt;/button&gt;
+pageRef: /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Customizing Hextra</title><link>https://note-base.emcybertrack.com/docs/basics/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/basics/advanced/customization/</guid><description>
-&lt;p&gt;You can override theme layouts or styles by creating files in your &lt;code&gt;layouts/&lt;/code&gt; or &lt;code&gt;assets/css/&lt;/code&gt; directory.&lt;/p&gt;
-&lt;p&gt;For example, add &lt;code&gt;assets/css/custom.css&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>DNS (Domain Name System)</title><link>https://note-base.emcybertrack.com/docs/network/dns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/network/dns/</guid><description>
-&lt;p&gt;The Domain Name System translates human-readable domain names into IP addresses.&lt;br&gt;
-DNS makes it possible to visit websites using easy-to-remember domain names instead of numeric IPs.&lt;/p&gt;</description></item><item><title>Firewall</title><link>https://note-base.emcybertrack.com/docs/network/firewall/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/network/firewall/</guid><description>
-&lt;p&gt;Firewalls are security devices or software that control incoming and outgoing network traffic.&lt;br&gt;
-They help protect systems from unauthorized access and malicious attacks.&lt;/p&gt;</description></item><item><title>HTML Basics</title><link>https://note-base.emcybertrack.com/docs/web/html/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/web/html/</guid><description>
-&lt;p&gt;HTML (HyperText Markup Language) defines the structure of a webpage.&lt;br&gt;
-It is used to organize content such as headings, paragraphs, images, and links.&lt;/p&gt;</description></item><item><title>Installing Hextra</title><link>https://note-base.emcybertrack.com/docs/basics/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/basics/installation/</guid><description>
-&lt;p&gt;To install the Hextra theme, you can use Hugo Modules or Git Submodules.&lt;/p&gt;</description></item><item><title>Performance Optimization</title><link>https://note-base.emcybertrack.com/docs/basics/advanced/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/basics/advanced/performance/</guid><description>
-&lt;p&gt;Hugo and Hextra are extremely fast by default, but here are a few tips to make builds even faster:&lt;/p&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Customizing Hextra</title>
+      <link>http://localhost:60101/docs/basics/advanced/customization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/basics/advanced/customization/</guid>
+      <description>
+        
+        
+        &lt;p&gt;You can override theme layouts or styles by creating files in your &lt;code&gt;layouts/&lt;/code&gt; or &lt;code&gt;assets/css/&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;For example, add &lt;code&gt;assets/css/custom.css&lt;/code&gt;:&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>DNS (Domain Name System)</title>
+      <link>http://localhost:60101/docs/network/dns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/network/dns/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The Domain Name System translates human-readable domain names into IP addresses.&lt;br&gt;
+DNS makes it possible to visit websites using easy-to-remember domain names instead of numeric IPs.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Firewall</title>
+      <link>http://localhost:60101/docs/network/firewall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/network/firewall/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Firewalls are security devices or software that control incoming and outgoing network traffic.&lt;br&gt;
+They help protect systems from unauthorized access and malicious attacks.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>HTML Basics</title>
+      <link>http://localhost:60101/docs/web/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/web/html/</guid>
+      <description>
+        
+        
+        &lt;p&gt;HTML (HyperText Markup Language) defines the structure of a webpage.&lt;br&gt;
+It is used to organize content such as headings, paragraphs, images, and links.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Installing Hextra</title>
+      <link>http://localhost:60101/docs/basics/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/basics/installation/</guid>
+      <description>
+        
+        
+        &lt;p&gt;To install the Hextra theme, you can use Hugo Modules or Git Submodules.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Performance Optimization</title>
+      <link>http://localhost:60101/docs/basics/advanced/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/basics/advanced/performance/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Hugo and Hextra are extremely fast by default, but here are a few tips to make builds even faster:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Use Hugo modules to avoid extra git dependencies.&lt;/li&gt;
 &lt;li&gt;Minimize image sizes in the &lt;code&gt;static/&lt;/code&gt; folder.&lt;/li&gt;
 &lt;li&gt;Use page bundles and avoid unnecessary content duplication.&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;hugo --gc --minify&lt;/code&gt; for a clean, compressed output.&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Styling with CSS</title><link>https://note-base.emcybertrack.com/docs/web/css/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/web/css/</guid><description>
-&lt;p&gt;CSS (Cascading Style Sheets) is used to style and format web pages.&lt;br&gt;
-You can use it to define colors, fonts, layouts, and responsive behavior.&lt;/p&gt;</description></item></channel></rss>
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Styling with CSS</title>
+      <link>http://localhost:60101/docs/web/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/web/css/</guid>
+      <description>
+        
+        
+        &lt;p&gt;CSS (Cascading Style Sheets) is used to style and format web pages.&lt;br&gt;
+You can use it to define colors, fonts, layouts, and responsive behavior.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

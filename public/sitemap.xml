@@ -1,1 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://note-base.emcybertrack.com/docs/basics/advanced/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/basics/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/network/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/web/</loc></url><url><loc>https://note-base.emcybertrack.com/</loc><lastmod>2025-10-20T20:29:04+03:00</lastmod></url><url><loc>https://note-base.emcybertrack.com/docs/</loc><lastmod>2025-10-20T20:29:04+03:00</lastmod></url><url><loc>https://note-base.emcybertrack.com/categories/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/basics/configuration/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/basics/advanced/customization/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/network/dns/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/network/firewall/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/web/html/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/basics/installation/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/basics/advanced/performance/</loc></url><url><loc>https://note-base.emcybertrack.com/docs/web/css/</loc></url><url><loc>https://note-base.emcybertrack.com/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:60101/docs/basics/advanced/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/basics/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/network/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/web/</loc>
+  </url><url>
+    <loc>http://localhost:60101/</loc>
+    <lastmod>2025-10-20T20:29:04+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60101/docs/</loc>
+    <lastmod>2025-10-20T20:29:04+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60101/categories/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/basics/configuration/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/basics/advanced/customization/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/network/dns/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/network/firewall/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/web/html/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/basics/installation/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/basics/advanced/performance/</loc>
+  </url><url>
+    <loc>http://localhost:60101/docs/web/css/</loc>
+  </url><url>
+    <loc>http://localhost:60101/tags/</loc>
+  </url>
+</urlset>

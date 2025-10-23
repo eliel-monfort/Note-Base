@@ -1,5 +1,48 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Note Base – Network</title><link>https://note-base.emcybertrack.com/docs/network/</link><description>Recent content in Network on Note Base</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://note-base.emcybertrack.com/docs/network/index.xml" rel="self" type="application/rss+xml"/><item><title>DNS (Domain Name System)</title><link>https://note-base.emcybertrack.com/docs/network/dns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/network/dns/</guid><description>
-&lt;p&gt;The Domain Name System translates human-readable domain names into IP addresses.&lt;br&gt;
-DNS makes it possible to visit websites using easy-to-remember domain names instead of numeric IPs.&lt;/p&gt;</description></item><item><title>Firewall</title><link>https://note-base.emcybertrack.com/docs/network/firewall/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://note-base.emcybertrack.com/docs/network/firewall/</guid><description>
-&lt;p&gt;Firewalls are security devices or software that control incoming and outgoing network traffic.&lt;br&gt;
-They help protect systems from unauthorized access and malicious attacks.&lt;/p&gt;</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note Base – Network</title>
+    <link>http://localhost:60101/docs/network/</link>
+    <description>Recent content in Network on Note Base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:60101/docs/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>DNS (Domain Name System)</title>
+      <link>http://localhost:60101/docs/network/dns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/network/dns/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The Domain Name System translates human-readable domain names into IP addresses.&lt;br&gt;
+DNS makes it possible to visit websites using easy-to-remember domain names instead of numeric IPs.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Firewall</title>
+      <link>http://localhost:60101/docs/network/firewall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60101/docs/network/firewall/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Firewalls are security devices or software that control incoming and outgoing network traffic.&lt;br&gt;
+They help protect systems from unauthorized access and malicious attacks.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
