@@ -9,10 +9,10 @@ params:
     - css/custom.css
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
     logo:
-      path: images/logo.ico
-      dark: images/logo-dark.ico
+      path: favicon.ico
+      dark: favicon.ico
       link: /
       width: 68
       height: 34
