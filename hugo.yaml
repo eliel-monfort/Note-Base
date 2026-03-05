@@ -9,7 +9,7 @@ params:
     - css/custom.css
   navbar:
     displayTitle: true
-    displayLogo: true
+    displayLogo: false
     logo:
       path: images/logo.ico
       dark: images/logo-dark.ico
