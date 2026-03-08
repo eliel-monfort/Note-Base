@@ -35,20 +35,32 @@ params:
 
 menu:
   main:
-    - name: General
-      pageRef: /docs
+    - name: Topics
+      pageRef: /topics
       weight: 1
-    - name: Search
+    - name: Tactics
+      pageRef: /tactics
+      weight: 2
+    - name: Tools
+      pageRef: /tools
+      weight: 3
+    - name: Insights
+      pageRef: /insights
       weight: 4
+    - name: About
+      pageRef: /about
+      weight: 5
+    - name: Search
+      weight: 6
       params:
         type: search
     - name: GitHub
-      weight: 5
+      weight: 7
       url: "https://github.com/eliel-monfort/"
       params:
         icon: github
     - name: Discord
-      weight: 6
+      weight: 8
       url: "https://discord.gg/hextra"
       params:
         icon: discord

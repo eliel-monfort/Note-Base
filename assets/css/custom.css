@@ -239,3 +239,35 @@ a[id^="user-content-"] {
 .hx\:border-t {
   border-top: 1.0px solid #454852 !important;
 }
+
+/* ===== Center Top Navigation Menu ===== */
+
+/* Navbar layout container */
+.hextra-nav-container nav {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Center menu links block */
+.hextra-nav-container nav > ul {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Keep search bar and icons aligned right */
+.hextra-nav-container .hextra-search-wrapper {
+  margin-left: auto !important;
+}
+
+
+/* ===== Navbar Menu Size & Spacing ===== */
+
+/* Increase menu item text size slightly (safe selector) */
+.hextra-nav-container nav a:not(.hextra-search-input):not([href="/"]) {
+  font-size: 1.05rem !important;
+}
+
+/* Add spacing between menu sections */
+.hextra-nav-container nav {
+  gap: 0.9rem !important;
+}
