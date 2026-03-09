@@ -33,10 +33,17 @@ params:
   externalLinkDecoration: true
   noindex: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
 menu:
   main:
     - name: Topics
-      pageRef: /topics
+      pageRef: /docs
       weight: 1
     - name: Tactics
       pageRef: /tactics
